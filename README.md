@@ -92,7 +92,7 @@ finalconcert | 30%
 - If you have a question or comment about a grade, you must come ask it *in person* at my office hour.
 
 ### Attendance
-- The **(two)** lowest attendance grades will be dropped.
+- The **(two)** lowest attendance grades will be dropped at the end of the semester.
 - Remote attendance is not permitted.
 - You must attend class with the computer you're using for class projects (no phones, no tablets, no borrowed laptops). If you do not, you'll receive a partial (50 %) attendance grade for the week.
 - If you are more than 5 minutes late for class or leave more than 5 minutes early, you'll receive a partial attendance grade for the week.
