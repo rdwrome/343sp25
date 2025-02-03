@@ -1,25 +1,13 @@
 # patterns
 
-<!-- N SCALE SYNTH
-
-NOTE PITCH NAME (WITH DEGREE)
-
-ADD OCTAVE info to n scale stuff!!!  
-
-FROM SUPERDIRT:
-## N vs Note For Real
-- You can never mix "note" and "n" within a single orbit
-- With Samples, n meant iNdex, so it was which sample from the index you wanted to play
-- With Samples, note meant: take this one sample but slow/speed it up to pitch it down and up and play the pitches as notes
-- Now, with Synths: note and n mean the same thing, but you still can't mix them within a single orbit BUT pitch names == scale degree and ARE interchangeable, e.g.
-`d3 $ n "0 2 e 6 0 b 6 8" # s "cyclo"`
--->
-
-### samples vs synths
+## samples vs synths
 
 ### n vs note
-- [`n` is sometimes short for note, sometimes short for 'iNdex', so beware](https://github.com/tidalcycles/strudel/discussions/395)
-  - [see also](https://tidalcycles.org/docs/patternlib/tutorials/workshop#difference-between-functions-n-and-note)
+- You can never mix "note" and "n" within a single orbit
+- With Samples: n means iNdex, so it was which sample from the index you wanted to play
+- With Samples: note means: take this one sample but slow/speed it up to pitch it down and up and play the pitches as notes
+- With Synths: note and n mean the same thing, but you still can't mix them within a single orbit BUT pitch names == scale degree and ARE interchangeable, e.g.
+`note ("0 2 e 6 0 b 6 8")`
 
 ## noted
 
@@ -42,6 +30,11 @@ FROM SUPERDIRT:
 - scale (use `n`)
 
 `n("0 2 4 6 4 2").scale("C:major").sound("sawtooth")`
+
+- scale with rand.range (not in tidal cycles!) and segment (IS in tidal cycles!)
+`n(rand.range(0,12).segment(8))
+.scale("C:major")
+.s("sine")`
 
 **everybody now!**
 

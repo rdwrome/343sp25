@@ -1,12 +1,5 @@
 # The Life of Live Coding
 
-## Where we're coming from:
-- [League of Automatic Music Composers 1980 - Later Became The Hub](https://acousmata.com/post/893801464/martian-folk-music)
-
-## Where we're going to:
-- [Chris Lambie-Hanson in 2022](https://archive.org/details/algorave-10-chris-lambie-hanson)
-- [prod.peppin](https://www.tiktok.com/@prod.peppin/video/7360332650306915627)
-
 ## DTR: Live Coding
 - Live coding is a performance approach where a creative coder demonstrably writes and rewrites art-making protocols in real-time
   - Audio - Visual Digital media (mostly)
@@ -16,6 +9,9 @@
     - Like adapting a recipe with different ingredients vs adjusting serving size
   - If controller and sound source are divorced, how the rules are being re-written in real-time is obscured
   - Chaos reigns, not control!
+
+## Where we're coming from:
+- [League of Automatic Music Composers 1980 - Later Became The Hub](https://acousmata.com/post/893801464/martian-folk-music)
 
 ## Ethos
 - Luthier/developer/backend, performer/musician/frontend roles blurred/blended = Distributed Agency

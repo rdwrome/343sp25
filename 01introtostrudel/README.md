@@ -38,7 +38,7 @@
 - console
 - reference
 - sounds
-- (but we'll use `bd hh ho sn cp`)
+- (but we'll use `bd hh ho sn cp rim` for now!)
 
 ## more advanced commands and syntax
 
@@ -88,7 +88,7 @@
 
 - fast
 
-`s("bd hh sd hh").fast(2) `
+`s("bd hh sd hh").fast(sine) `
 
 - slow
 

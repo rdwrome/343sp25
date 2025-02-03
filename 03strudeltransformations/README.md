@@ -36,7 +36,8 @@
 `
 $: n("[0 .. 8]*8/9").scale("C:minor:pentatonic")
 
-_$: s("bd*4").bank('RolandTR909')
+// command-/
+//$: s("bd*4").bank('RolandTR909')
 `
 
 ## project
