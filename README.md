@@ -14,7 +14,7 @@ LMSC-261 & MTEC-111 are prerequisites.
 - tidal cycles: samples & synths
 - tidal cycles: effects
 - tidal cycles: polyrhythmic & Euclidean rhythms
-- final concert
+- final concert May 4 7pm
 
 ## Everyday Tools
 

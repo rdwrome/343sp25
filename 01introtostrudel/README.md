@@ -8,41 +8,6 @@
 - Uses javaScript in the browser (so you don't have to download anything!)
 - TidalCycles is a Haskell wrapper for SuperCollider, FYI
 
-## tidal cycles & its flavors
-- tidal cycles: MOST POWERFUL (but needs a lot to get going)
-- [estuary: less powerful than strudel but you can play with others](https://estuary.mcmaster.ca/), not covered in this class but you can do it!
-- strudel: under development, best when starting, QUITE powerful but you can't play well with others
-- in all three of these environments there is a way to run hydra
-
-
-### mini-notation comparison
-```
-// tidal cycles
-d1 $ stack[
-  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
-  s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
-  s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
-  s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
-]
-
-// estuary
-stack[
-  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
-  s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
-  s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
-  s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
-]
-
-// strudel
-stack(
-  "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
-  "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
-  "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
-  "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
-).s()
-
-```
-
 ## [Strudel](https://strudel.cc/)
 - delete welcome shuffle patch!
 - play
@@ -71,32 +36,29 @@ stack(
 
 ## Strudel
 - console
-- sounds
 - reference
+- sounds
+- (but we'll use `bd hh ho sn cp`)
 
 ## more advanced commands and syntax
 
-`[]` = nest these within one pulse of the cycle
+`?` = randomly silence
 
-`,` = layer these atop one another within one cycle
+`[]` = nest these within one pulse of the cycle
 
 `[ | ]` = randomly choose sample from this array per cycle
 
-`?` = randomly silence
-
-`( , )` = spread this many pulses over this many pulses per cycle
+`,` = layer these atop one another within one cycle
 
 **more examples**
 
-`s "(bd ~ [hh!2]")`
+`s ("hh!16?")`
 
-`s ("bd, ~ hh")`
+`s "(bd ~ [hh!2]")`
 
 `s ("[bd | hh | sd]!4")`
 
-`s ("hh!16?")`
-
-`s ("bd(7,12)")`
+`s ("bd, ~ hh")`
 
 **everybody now!**
 
@@ -131,6 +93,40 @@ stack(
 - slow
 
 `s("bd hh sd hh").slow(2) `
+
+## tidal cycles & its flavors
+- tidal cycles: MOST POWERFUL (but needs a lot to get going)
+- [estuary: less powerful than strudel but you can play with others](https://estuary.mcmaster.ca/), not covered in this class but you can do it!
+- strudel: under development, best when starting, QUITE powerful but you can't play well with others
+- in all three of these environments there is a way to run hydra
+
+### mini-notation comparison
+```
+// tidal cycles
+d1 $ stack[
+  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
+]
+
+// estuary
+stack[
+  s "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  s "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  s "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  s "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] "
+]
+
+// strudel
+stack(
+  "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
+).s()
+
+```
 
 ## Small assignment for next week! A strudel percussion patch you're proud of.
 All in a single markdown file (MD demo)
