@@ -40,9 +40,6 @@
 
 ## share a midi sequence
 
-## [sometimes and its cousins](https://tidalcycles.org/docs/reference/randomness/#the-sometimes-family)
-- NEED BETTER DEMO
-
 ## sample transformations
 
 - loop at
@@ -53,7 +50,7 @@ s("rhodes").loopAt(2)`
 - begin
 
 `samples({ rave: 'rave/AREUREADY.wav' }, 'github:tidalcycles/dirt-samples')
-s("rave").begin("<0 .25 .5 .75>").fast(2)`
+s("rave").begin("sine").fast(2)`
 
 ## sophisticated pattern transformations
 

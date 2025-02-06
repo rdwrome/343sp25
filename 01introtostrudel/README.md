@@ -48,6 +48,8 @@
 
 `[ | ]` = randomly choose sample from this array per cycle
 
+`"< >"` = chose the next one from this list per cycle
+
 `,` = layer these atop one another within one cycle
 
 **more examples**
@@ -57,6 +59,8 @@
 `s "(bd ~ [hh!2]")`
 
 `s ("[bd | hh | sd]!4")`
+
+`s ("<bd hh sd>!4")`
 
 `s ("bd, ~ hh")`
 
@@ -74,17 +78,11 @@
   "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
 ).s()`
 
-## arguments and oscillators
-
-`"< >"` = chose the next one from this list per cycle
-
-`sine` = wave as floating point between 0 and 1
-
 ## time
 
 - cps
 
-`s("<bd sd>,hh*2").cpm(140)`
+`s("<bd sd>,hh*2").cpm(140/4)`
 
 - fast
 
