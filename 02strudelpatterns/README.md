@@ -81,3 +81,6 @@ s("rave").begin("sine").fast(2)`
 - euclid
 
 `note("c3").euclid(3,8)`
+
+## Small assignment for next week! A strudel patch you're proud of.
+All in a single markdown file (MD demo)
