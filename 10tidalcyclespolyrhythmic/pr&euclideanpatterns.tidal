@@ -151,3 +151,6 @@ d1 $ stitch "t f t t f f t f" (sound "print:4") (sound "909")
 -- .. and use the usual mininotation syntax:
 d1 $ stitch "t f t [t f]*2 f ~ t f" (sound "print:4") (sound "909")
   # room 0.2 # sz 0.8
+
+-- ADDING YOUR OWN SAMPLES
+-- SENDING CLOCK FROM SUPERCOLLIDER

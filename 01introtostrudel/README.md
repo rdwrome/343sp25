@@ -13,7 +13,7 @@
 - play
 - update
 
-## starter pattern commands and syntax
+## mini-tidal starter pattern commands and syntax
 `s` = sound
 
 `" "` = what to fit inside one cycle
@@ -40,7 +40,7 @@
 - sounds
 - (but we'll use `bd hh ho sn cp rim` for now!)
 
-## more advanced commands and syntax
+## more advanced mini-tidal commands and syntax
 
 `?` = randomly silence
 
@@ -96,9 +96,9 @@
 - tidal cycles: MOST POWERFUL (but needs a lot to get going)
 - [estuary: less powerful than strudel but you can play with others](https://estuary.mcmaster.ca/), not covered in this class but you can do it!
 - strudel: under development, best when starting, QUITE powerful but you can't play well with others
-- in all three of these environments there is a way to run hydra
+- in all three of these environments there is a way to run mini-tidal and hydra
 
-### mini-notation comparison
+### mini-tidal notation comparison
 ```
 // tidal cycles
 d1 $ stack[

@@ -1,3 +1,13 @@
+# pulsar & hydra
+- install [node.js](https://nodejs.org/en/download/) with 'brew' commands
+- quit everything and reopen
+- install hydra package for pulsar through the command line: 
+`   git clone https://github.com/hydra-synth/atom-hydra.git
+    cd atom-hydra
+    ppm install
+    ppm link `
+ - quit everything and reopen
+  
 # Tidal Cycles Installation
 
 ## [Structure of Tidal Cycles](https://tidalcycles.org/docs/getting-started/tidal_start)
@@ -25,20 +35,8 @@
 ## The Structure
 `d1 $ n "0 2 4 6 0 2 6 8" # sound "cyclo"`
 
-# pulsar & hydra
-- install brew: `https://brew.sh/`
-- install [node.js](https://nodejs.org/en/download/) with 'brew' commands
-- quit everything and reopen
-- install hydra package for pulsar through the command line: 
-`   git clone https://github.com/hydra-synth/atom-hydra.git
-    cd atom-hydra
-    ppm install
-    ppm link `
- - quit everything and reopen
-  
- # recording your tc/hydra session in pulsar with OBS advice
-  
- ## Virtual Audio Interfaces
+# recording your tc/hydra session in pulsar with OBS advice
+## Virtual Audio Interfaces
 - [BlackHole](https://existential.audio/blackhole/)
   - uncomplicated, unpowerful
   - Download 16ch
